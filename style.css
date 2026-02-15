@@ -1,0 +1,66 @@
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.legal-page {
+    margin-top: 30px;
+    padding: 60px;
+    border: 1px solid black;
+    min-height: 700px;
+}
