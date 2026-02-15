@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Draft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>District Court Draft Generator</h2>
+</header>
+
+<div class="container">
+
+    <input type="text" id="court" placeholder="Court Name">
+    <input type="text" id="caseNo" placeholder="Suit Number">
+    <textarea id="party1" placeholder="Plaintiff / Applicant Details"></textarea>
+    <textarea id="party2" placeholder="Defendant / Respondent Details"></textarea>
+    <textarea id="facts" placeholder="Facts / Content"></textarea>
+    <textarea id="prayer" placeholder="Relief / Prayer"></textarea>
+
+    <button onclick="generateDraft()">Generate Draft</button>
+
+    <div class="legal-page" id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
