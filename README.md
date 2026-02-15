@@ -1,5 +1,5 @@
-# Legal-drafting
-LexDraft/
+
+Legal draft
 │
 ├── index.html        (Home)
 ├── dashboard.html    (Case selection)
